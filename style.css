@@ -40,26 +40,34 @@ button {
 
 #blue-button:hover {
   background-color: lightblue;
-} #pink-button:hover {
+}
+
+#pink-button:hover {
   background-color: pink;
-} #brown-button:hover {
+}
+
+#brown-button:hover {
   background-color: #91807e;
 }
 
 #blue-horse {
   grid-column: 1;
 }
+
 #pink-horse {
   grid-column: 1;
 }
+
 #brown-horse {
   grid-column: 1;
 }
 
 #winner {
   background-color: gold;
+  color: black; /* Set the text color */
   font-size: 100px;
   margin-top: 100px;
   padding: 10px;
   border-radius: 15px;
+  text-align: center;
 }

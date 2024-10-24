@@ -12,20 +12,26 @@
       <h1>The National Horse Race</h1>
       <div class="section">
         <div class="horse">
-          <button id="blue-button" value="blue">Run!</button>
-          <div class="track"><img id="blue-horse" src="img/blue.png" alt="blue horse" /></div>
+          <button id="blue-button" value="blue" aria-label="Advance blue horse">Run!</button>
+          <div class="track">
+            <img id="blue-horse" src="img/blue.png" alt="blue horse at position 1 out of 5" aria-live="polite" aria-atomic="true" />
+          </div>
         </div>
         <div class="horse">
-          <button id="pink-button" value="pink">Run!</button>
-          <div class="track"><img id="pink-horse" src="img/pink.jpg" alt="pink horse" /></div>
+          <button id="pink-button" value="pink" aria-label="Advance pink horse">Run!</button>
+          <div class="track">
+            <img id="pink-horse" src="img/pink.jpg" alt="pink horse at position 1 out of 5" aria-live="polite" aria-atomic="true" />
+          </div>
         </div>
         <div class="horse">
-          <button id="brown-button" value="brown">Run!</button>
-          <div class="track"><img id="brown-horse" src="img/brown.png" alt="brown horse" /></div>
+          <button id="brown-button" value="brown" aria-label="Advance brown horse">Run!</button>
+          <div class="track">
+            <img id="brown-horse" src="img/brown.png" alt="brown horse at position 1 out of 5" aria-live="polite" aria-atomic="true" />
+          </div>
         </div>
       </div>
 
-      <div id="winner"></div>
+      <div id="winner" aria-live="assertive" aria-atomic="true"></div>
     </div>
 
     <script src="script.js"></script>
